@@ -1,0 +1,16 @@
+@media (max-width: 500px) {
+    .main-menu-dekstop {
+        display: none;
+    }
+    .main-menu-mobile{
+        display: block;
+    }
+}
+@media (min-width: 500px) {
+    .main-menu-dekstop {
+        display: block;
+    }
+    .main-menu-mobile{
+        display: none;
+    }
+}
